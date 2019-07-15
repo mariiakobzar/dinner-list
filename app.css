@@ -1,0 +1,148 @@
+* {
+    transition: all .1s ease-in;
+}
+
+body {
+    font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+}
+
+.container {
+    margin: 0;
+    box-sizing: border-box;
+    height: 810px;
+    width: 1240px;
+    background-color: #3b3f45;
+    margin: 0 auto;
+}
+
+.head {
+    margin: 0;
+    display: block;
+    box-sizing: border-box;
+    background-color: #4a4f56;
+    width: 1240px;
+    height: 120px;
+}
+
+h1,
+p {
+
+    text-align: center;
+    vertical-align: middle;
+    color: #cc8382;
+}
+
+P {
+    font-size: 20px;
+}
+
+h1 {
+    padding-top: 20px;
+}
+
+.list {
+    display: block;
+    box-sizing: border-box;
+    width: 800px;
+    height: 390px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+[type="checkbox"] {
+    height: 25px;
+    width: 25px;
+    position: relative;
+    left: 10px;
+    vertical-align: middle;
+}
+
+label {
+    display: block;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 24px;
+    height: 60px;
+    max-width: 800px;
+    vertical-align: middle;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+}
+
+.list label:hover {
+    background-color: #625e77;
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+}
+
+.list label:active {
+    background-color: #906e75;
+}
+
+[type="checkbox"]:checked+span {
+    text-decoration: line-through;
+    color: #9c9eb5;
+}
+
+span {
+    padding-left: 5px;
+    vertical-align: middle;
+}
+
+sub {
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+form label:nth-of-type(odd) {
+    background-color: #88839e;
+}
+
+form label:nth-of-type(even) {
+    background-color: #78778f;
+}
+
+.wish {
+    display: block;
+    box-sizing: border-box;
+    width: 800px;
+    height: 75px;
+    background-color: #4a4f56;
+    margin: 0 auto;
+    position: relative;
+    top: 45px;
+}
+
+.wish p {
+    padding-top: 25px;
+}
+
+
+/* drag-drop */
+
+.drag-wrapper{
+  padding: 20px;
+  height: 100px;
+}
+
+.drag{
+  height: 20px;
+  width: 200px;
+  background-color: #eee;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.drag-item{
+  height: 25px;
+  width: 10px;
+  background-color: tomato;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  position: relative;
+  left: 10px;
+  top: -5px;
+  cursor: pointer;
+  transition: 0s;
+}

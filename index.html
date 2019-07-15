@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Shopping List</title>
+  <script defer src="js/all.min.js"></script>
+  <link rel="stylesheet" href="app.css" type="text/css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="head">
+        <h1>CSS Diner Shopping List</h1>
+        <p>Let's go to the mall!</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="list">
+        <form id="shopingList">
+
+          <label>
+            <input type="checkbox" id="pickl" name="pickles" value="pickles">
+            <span>
+              A lot of pickles <sub> for the next lessons about CSS </sub>
+            </span>
+            <button>Delete</button>
+          </label>
+
+          <label>
+            <input type="checkbox" id="apple" name="apples" value="apples">
+            <span>
+              10 apples <sub> for more CSS manipulations </sub>
+            </span>
+            <button>Delete</button>
+          </label>
+
+          <label>
+            <input type="checkbox" id="orange" name="oranges" value="oranges">
+            <span>
+              20 oranges <sub> because they are awesome </sub>
+            </span>
+            <button>Delete</button>
+          </label>
+
+          <label>
+            <input type="checkbox" id="plate" name="plates" value="plates">
+            <span>
+              13 plates <sub> hm... they always disappear </sub>
+            </span>
+            <button>Delete</button>
+          </label>
+
+          <label>
+            <input type="checkbox" id="bento" name="bentos" value="bentos">
+            <span>
+              15 bentos
+            </span>
+            <button>Delete</button>
+          </label>
+
+          <label>
+            <input type="checkbox" id="sake" name="bottle" value="bottle">
+            <span>
+              1 bottle of Sake ^_^ <sub> for my friends </sub>
+            </span>
+            <button>Delete</button>
+          </label>
+
+        </form>
+      </section>
+
+    </main>
+
+    <footer>
+
+      <div class="wish">
+        <input id="text">
+        <button id="add">ADD</button>
+      </div>
+
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
