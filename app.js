@@ -7,7 +7,7 @@ addBtn.addEventListener("click", function (e) {
     alert('Empty input!');
     return;
   }
-  var ll = "<input type='checkbox' id='pickl' name='pickles' value='pickles'><span>" + text + "</span><button>Delete</button>";
+  var ll = '<input type="checkbox" id="pickl" name="pickles" value="pickles"><span>' + text + '</span><button>Delete</button>';
   li.innerHTML = ll;
   document.getElementById("shopingList").appendChild(li);
 })
